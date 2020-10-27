@@ -53,7 +53,7 @@ public class AccountActivityNavigationStepDefs {
 
     @And("Account	drop	down	should	have	{string}	selected")
     public void accountDropDownShouldHaveSelected(String selected) {
-        WebElement account = new AccountActivityPage().Account;
+        WebElement account = new AccountActivityPage().AccountDropdown;
         Select select = new Select(account);
         String actual = select.getFirstSelectedOption().getText();
         String expexted = selected;

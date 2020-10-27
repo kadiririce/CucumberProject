@@ -15,7 +15,7 @@ public class AccountActivityPage {
     }
 
     @FindBy(id = "aa_accountId")
-    public WebElement Account;
+    public WebElement AccountDropdown;
 
     @FindBy(xpath = "//a[.='Find Transactions']")
     public WebElement FindTransactions;

@@ -1,8 +1,8 @@
 Feature: Accont Summary
-@wip
+
   Scenario: Page title and Account types
     Given the user is logged in
-    Then the Page title should be "Zero - Account Summary"
+    Then the Page title should be "Zero - Account summary"
     Then Account summar page should have following account types
       | Cash Accounts       |
       | Investment Accounts |

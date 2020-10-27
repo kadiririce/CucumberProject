@@ -29,6 +29,21 @@ public class PayBills extends BasePage{
     @FindBy(id = "pc_calculate_costs")
     public WebElement CalculateCostsBtn;
 
+    @FindBy(id = "sp_amount")
+    public WebElement AmountTab;
+
+    @FindBy(id = "sp_date")
+    public WebElement DateTab;
+
+    @FindBy(id = "pay_saved_payees")
+    public WebElement PayBtn;
+
+    @FindBy(xpath = "//span[@title='$ 123 payed to payee sprint']")
+    public WebElement approvalMessage;
+
+
+
+
 
 
 
