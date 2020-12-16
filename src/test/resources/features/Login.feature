@@ -1,5 +1,6 @@
-Feature: Login to the Application
 
+Feature: Login to the Application
+@smoke
   Scenario:Login with valid credentials
     Given user is on the login page
     When user logs in with following valid credentials
@@ -12,7 +13,7 @@ Feature: Login to the Application
     When user logs in with invalid credentials
     Then error message "Login and/or password are wrong." is displayed
 
-
+@smoke
     Scenario: Login with Blank credentials
       Given user is on the login page
       When user clicks Sign in without enter username and password
